@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* PegSolitaireAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* PegSolitaireAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		7603CE290F45CE2F00FCAEE6 /* HighScoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7603CE280F45CE2F00FCAEE6 /* HighScoresViewController.m */; };
+		7603CE2E0F45CEB500FCAEE6 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7603CE2D0F45CEB500FCAEE6 /* HelpViewController.m */; };
+		7603CE310F45CEE000FCAEE6 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7603CE300F45CEE000FCAEE6 /* AboutViewController.m */; };
+		762527B20F2CEEF900561F7A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 762527B10F2CEEF900561F7A /* RootViewController.m */; };
+		762527B40F2CEF1400561F7A /* FlipSideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 762527B30F2CEF1400561F7A /* FlipSideView.xib */; };
+		762527B60F2CEF2E00561F7A /* PegView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 762527B50F2CEF2E00561F7A /* PegView.xib */; };
+		762E4BA60F3F43D200C7B883 /* 6x6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 762E4BA50F3F43D200C7B883 /* 6x6.txt */; };
+		7646ECA90F2E2D8000042B2D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7646ECA30F2E2D8000042B2D /* Icon.png */; };
+		7646ECAB0F2E2D8000042B2D /* PossibleMoveSphere.png in Resources */ = {isa = PBXBuildFile; fileRef = 7646ECA50F2E2D8000042B2D /* PossibleMoveSphere.png */; };
+		7646ECAC0F2E2D8000042B2D /* Preferences.png in Resources */ = {isa = PBXBuildFile; fileRef = 7646ECA60F2E2D8000042B2D /* Preferences.png */; };
+		7646ECAD0F2E2D8000042B2D /* SelectedSphere.png in Resources */ = {isa = PBXBuildFile; fileRef = 7646ECA70F2E2D8000042B2D /* SelectedSphere.png */; };
+		7646ECAE0F2E2D8000042B2D /* Sphere.png in Resources */ = {isa = PBXBuildFile; fileRef = 7646ECA80F2E2D8000042B2D /* Sphere.png */; };
+		7646ED450F2E422300042B2D /* HighScores.png in Resources */ = {isa = PBXBuildFile; fileRef = 7646ED440F2E422300042B2D /* HighScores.png */; };
+		7646ED690F2E46A300042B2D /* Help.png in Resources */ = {isa = PBXBuildFile; fileRef = 7646ED680F2E46A300042B2D /* Help.png */; };
+		7675ABCF0F2F796C00655E97 /* About.png in Resources */ = {isa = PBXBuildFile; fileRef = 7675ABCE0F2F796C00655E97 /* About.png */; };
+		769BC2A40F7B137100630111 /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 769BC2A30F7B137100630111 /* AboutView.xib */; };
+		76A06D550F30BF010044E203 /* HelpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76A06D540F30BF010044E203 /* HelpView.xib */; };
+		76A19E5C0F50DF4E00AF67EB /* BoardTypeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A19E5B0F50DF4E00AF67EB /* BoardTypeTableView.m */; };
+		76A19F3F0F50F54C00AF67EB /* Fireplace.txt in Resources */ = {isa = PBXBuildFile; fileRef = 76A19F3E0F50F54C00AF67EB /* Fireplace.txt */; };
+		76A19F410F50F55700AF67EB /* Pyramid.txt in Resources */ = {isa = PBXBuildFile; fileRef = 76A19F400F50F55700AF67EB /* Pyramid.txt */; };
+		76A328200F4D0006004B7831 /* Cross.txt in Resources */ = {isa = PBXBuildFile; fileRef = 76A3281F0F4D0006004B7831 /* Cross.txt */; };
+		76A334560F4D99CA003D33E1 /* Plus.txt in Resources */ = {isa = PBXBuildFile; fileRef = 76A334550F4D99CA003D33E1 /* Plus.txt */; };
+		76A578D60F2F1DDE006DCA53 /* Undo.png in Resources */ = {isa = PBXBuildFile; fileRef = 76A578D50F2F1DDE006DCA53 /* Undo.png */; };
+		76A578F10F2F247C006DCA53 /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76A578F00F2F247C006DCA53 /* SettingsView.xib */; };
+		76A578F30F2F2485006DCA53 /* HighScoresView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76A578F20F2F2485006DCA53 /* HighScoresView.xib */; };
+		76AA3F380F5788BE00B39355 /* iPeg.png in Resources */ = {isa = PBXBuildFile; fileRef = 76AA3F370F5788BE00B39355 /* iPeg.png */; };
+		76AA3F3D0F57892A00B39355 /* Restart.png in Resources */ = {isa = PBXBuildFile; fileRef = 76AA3F3B0F57892A00B39355 /* Restart.png */; };
+		76AA3F3E0F57892A00B39355 /* RestartSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 76AA3F3C0F57892A00B39355 /* RestartSelected.png */; };
+		76AA3F400F578A1000B39355 /* PlaySelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 76AA3F3F0F578A1000B39355 /* PlaySelected.png */; };
+		76AEAC610F2F3203001A49B7 /* Play.png in Resources */ = {isa = PBXBuildFile; fileRef = 76AEAC600F2F3203001A49B7 /* Play.png */; };
+		76AEAC740F2F32E4001A49B7 /* PegView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AEAC710F2F32E4001A49B7 /* PegView.m */; };
+		76AEAC750F2F32E4001A49B7 /* PegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AEAC730F2F32E4001A49B7 /* PegViewController.m */; };
+		76AEAC7A0F2F32F6001A49B7 /* FlipSideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AEAC770F2F32F6001A49B7 /* FlipSideView.m */; };
+		76AEAC7B0F2F32F6001A49B7 /* FlipSideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AEAC790F2F32F6001A49B7 /* FlipSideViewController.m */; };
+		76AEACA80F2F3717001A49B7 /* UndoSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 76AEACA60F2F3717001A49B7 /* UndoSelected.png */; };
+		76AEACAD0F2F376E001A49B7 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76AEACAC0F2F376E001A49B7 /* RootViewController.xib */; };
+		76B34DA20F376DAC005401FC /* UndosLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B34DA10F376DAC005401FC /* UndosLeft.png */; };
+		76B9F9160F3891E200B507CC /* Splashscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B9F9150F3891E200B507CC /* Splashscreen.png */; };
+		76B9F9580F389FBB00B507CC /* Peg6x6.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B9F9550F389FBB00B507CC /* Peg6x6.png */; };
+		76B9F9590F389FBB00B507CC /* PegEnglish.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B9F9560F389FBB00B507CC /* PegEnglish.png */; };
+		76B9F95A0F389FBB00B507CC /* PegEuropean.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B9F9570F389FBB00B507CC /* PegEuropean.png */; };
+		76BF9CE20F2781DC008C353C /* PegBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BF9CE10F2781DC008C353C /* PegBoard.m */; };
+		76C63B200F373479008FD0D5 /* PegSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C63B1F0F373479008FD0D5 /* PegSettings.m */; };
+		76C63C5F0F374C7D008FD0D5 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C63C5E0F374C7D008FD0D5 /* Score.m */; };
+		76C63C7B0F3751BE008FD0D5 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C63C7A0F3751BE008FD0D5 /* SettingsViewController.m */; };
+		76C63CB70F375DFC008FD0D5 /* Tips.png in Resources */ = {isa = PBXBuildFile; fileRef = 76C63CB60F375DFC008FD0D5 /* Tips.png */; };
+		76CE67670F45D18C000BCD78 /* HighScoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CE67660F45D18C000BCD78 /* HighScoreManager.m */; };
+		76D312FF0F377CD50027693C /* GameOver.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D312FE0F377CD50027693C /* GameOver.png */; };
+		CF7258A20F3CA0B000117DD9 /* English.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF7258A00F3CA0B000117DD9 /* English.txt */; };
+		CF7258A30F3CA0B000117DD9 /* European.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF7258A10F3CA0B000117DD9 /* European.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* PegSolitaireAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PegSolitaireAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* PegSolitaireAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PegSolitaireAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* PegSolitaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PegSolitaire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* PegSolitaire_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PegSolitaire_Prefix.pch; sourceTree = "<group>"; };
+		7603CE270F45CE2F00FCAEE6 /* HighScoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoresViewController.h; sourceTree = "<group>"; };
+		7603CE280F45CE2F00FCAEE6 /* HighScoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoresViewController.m; sourceTree = "<group>"; };
+		7603CE2C0F45CEB500FCAEE6 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		7603CE2D0F45CEB500FCAEE6 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		7603CE2F0F45CEE000FCAEE6 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		7603CE300F45CEE000FCAEE6 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		762527B00F2CEEF900561F7A /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		762527B10F2CEEF900561F7A /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		762527B30F2CEF1400561F7A /* FlipSideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipSideView.xib; sourceTree = "<group>"; };
+		762527B50F2CEF2E00561F7A /* PegView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PegView.xib; sourceTree = "<group>"; };
+		762E4BA50F3F43D200C7B883 /* 6x6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 6x6.txt; path = Boards/6x6.txt; sourceTree = "<group>"; };
+		7646ECA30F2E2D8000042B2D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Images/Icon.png; sourceTree = "<group>"; };
+		7646ECA50F2E2D8000042B2D /* PossibleMoveSphere.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PossibleMoveSphere.png; path = Images/PossibleMoveSphere.png; sourceTree = "<group>"; };
+		7646ECA60F2E2D8000042B2D /* Preferences.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Preferences.png; path = Images/Preferences.png; sourceTree = "<group>"; };
+		7646ECA70F2E2D8000042B2D /* SelectedSphere.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SelectedSphere.png; path = Images/SelectedSphere.png; sourceTree = "<group>"; };
+		7646ECA80F2E2D8000042B2D /* Sphere.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sphere.png; path = Images/Sphere.png; sourceTree = "<group>"; };
+		7646ED440F2E422300042B2D /* HighScores.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HighScores.png; path = Images/HighScores.png; sourceTree = "<group>"; };
+		7646ED680F2E46A300042B2D /* Help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Help.png; path = Images/Help.png; sourceTree = "<group>"; };
+		7675ABCE0F2F796C00655E97 /* About.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = About.png; path = Images/About.png; sourceTree = "<group>"; };
+		769BC2A30F7B137100630111 /* AboutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutView.xib; sourceTree = "<group>"; };
+		76A06D540F30BF010044E203 /* HelpView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelpView.xib; sourceTree = "<group>"; };
+		76A19E5A0F50DF4E00AF67EB /* BoardTypeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardTypeTableView.h; sourceTree = "<group>"; };
+		76A19E5B0F50DF4E00AF67EB /* BoardTypeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardTypeTableView.m; sourceTree = "<group>"; };
+		76A19F3E0F50F54C00AF67EB /* Fireplace.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Fireplace.txt; path = Boards/Fireplace.txt; sourceTree = "<group>"; };
+		76A19F400F50F55700AF67EB /* Pyramid.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Pyramid.txt; path = Boards/Pyramid.txt; sourceTree = "<group>"; };
+		76A3281F0F4D0006004B7831 /* Cross.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Cross.txt; path = Boards/Cross.txt; sourceTree = "<group>"; };
+		76A334550F4D99CA003D33E1 /* Plus.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Plus.txt; path = Boards/Plus.txt; sourceTree = "<group>"; };
+		76A578D50F2F1DDE006DCA53 /* Undo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Undo.png; path = Images/Undo.png; sourceTree = "<group>"; };
+		76A578F00F2F247C006DCA53 /* SettingsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsView.xib; sourceTree = "<group>"; };
+		76A578F20F2F2485006DCA53 /* HighScoresView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HighScoresView.xib; sourceTree = "<group>"; };
+		76AA3F370F5788BE00B39355 /* iPeg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPeg.png; path = Images/iPeg.png; sourceTree = "<group>"; };
+		76AA3F3B0F57892A00B39355 /* Restart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Restart.png; path = Images/Restart.png; sourceTree = "<group>"; };
+		76AA3F3C0F57892A00B39355 /* RestartSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RestartSelected.png; path = Images/RestartSelected.png; sourceTree = "<group>"; };
+		76AA3F3F0F578A1000B39355 /* PlaySelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PlaySelected.png; path = Images/PlaySelected.png; sourceTree = "<group>"; };
+		76AEAC600F2F3203001A49B7 /* Play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Play.png; path = Images/Play.png; sourceTree = "<group>"; };
+		76AEAC700F2F32E4001A49B7 /* PegView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PegView.h; path = Classes/PegView.h; sourceTree = "<group>"; };
+		76AEAC710F2F32E4001A49B7 /* PegView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PegView.m; path = Classes/PegView.m; sourceTree = "<group>"; };
+		76AEAC720F2F32E4001A49B7 /* PegViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PegViewController.h; path = Classes/PegViewController.h; sourceTree = "<group>"; };
+		76AEAC730F2F32E4001A49B7 /* PegViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PegViewController.m; path = Classes/PegViewController.m; sourceTree = "<group>"; };
+		76AEAC760F2F32F6001A49B7 /* FlipSideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlipSideView.h; path = Classes/FlipSideView.h; sourceTree = "<group>"; };
+		76AEAC770F2F32F6001A49B7 /* FlipSideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlipSideView.m; path = Classes/FlipSideView.m; sourceTree = "<group>"; };
+		76AEAC780F2F32F6001A49B7 /* FlipSideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlipSideViewController.h; path = Classes/FlipSideViewController.h; sourceTree = "<group>"; };
+		76AEAC790F2F32F6001A49B7 /* FlipSideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlipSideViewController.m; path = Classes/FlipSideViewController.m; sourceTree = "<group>"; };
+		76AEACA60F2F3717001A49B7 /* UndoSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UndoSelected.png; path = Images/UndoSelected.png; sourceTree = "<group>"; };
+		76AEACAC0F2F376E001A49B7 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		76B34DA10F376DAC005401FC /* UndosLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UndosLeft.png; path = Images/UndosLeft.png; sourceTree = "<group>"; };
+		76B9F9150F3891E200B507CC /* Splashscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Splashscreen.png; path = Images/Splashscreen.png; sourceTree = "<group>"; };
+		76B9F9550F389FBB00B507CC /* Peg6x6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Peg6x6.png; path = Images/Peg6x6.png; sourceTree = "<group>"; };
+		76B9F9560F389FBB00B507CC /* PegEnglish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PegEnglish.png; path = Images/PegEnglish.png; sourceTree = "<group>"; };
+		76B9F9570F389FBB00B507CC /* PegEuropean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PegEuropean.png; path = Images/PegEuropean.png; sourceTree = "<group>"; };
+		76BF9CE00F2781DC008C353C /* PegBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PegBoard.h; sourceTree = "<group>"; };
+		76BF9CE10F2781DC008C353C /* PegBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PegBoard.m; sourceTree = "<group>"; };
+		76C63B1E0F373479008FD0D5 /* PegSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PegSettings.h; sourceTree = "<group>"; };
+		76C63B1F0F373479008FD0D5 /* PegSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PegSettings.m; sourceTree = "<group>"; };
+		76C63C5D0F374C7D008FD0D5 /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
+		76C63C5E0F374C7D008FD0D5 /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
+		76C63C790F3751BE008FD0D5 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		76C63C7A0F3751BE008FD0D5 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		76C63CB60F375DFC008FD0D5 /* Tips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tips.png; path = Images/Tips.png; sourceTree = "<group>"; };
+		76CE67650F45D18C000BCD78 /* HighScoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoreManager.h; sourceTree = "<group>"; };
+		76CE67660F45D18C000BCD78 /* HighScoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoreManager.m; sourceTree = "<group>"; };
+		76D312FE0F377CD50027693C /* GameOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GameOver.png; path = Images/GameOver.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF7258A00F3CA0B000117DD9 /* English.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = English.txt; path = Boards/English.txt; sourceTree = "<group>"; };
+		CF7258A10F3CA0B000117DD9 /* European.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = European.txt; path = Boards/European.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7603CE2B0F45CE9C00FCAEE6 /* HelpViewController */,
+				7603CE2A0F45CE8F00FCAEE6 /* AboutViewController */,
+				7603CE260F45CE1100FCAEE6 /* HighScoresViewController */,
+				76C63C7D0F375248008FD0D5 /* SettingsViewController */,
+				76E1F2A60F30CBF800748C61 /* Model */,
+				7650DDA20F2CEC690098C6C2 /* FlipSideView */,
+				7625279F0F2CED9D00561F7A /* PegView */,
+				76AEAC7C0F2F331E001A49B7 /* RootViewController */,
+				1D3623240D0F684500981E51 /* PegSolitaireAppDelegate.h */,
+				1D3623250D0F684500981E51 /* PegSolitaireAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* PegSolitaire.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* PegSolitaire_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CFD714FF0F3C9FC100FEF6F9 /* Boards */,
+				7646ECB90F2E2DD600042B2D /* Images */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				769BC2A30F7B137100630111 /* AboutView.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				762527B30F2CEF1400561F7A /* FlipSideView.xib */,
+				762527B50F2CEF2E00561F7A /* PegView.xib */,
+				76A578F00F2F247C006DCA53 /* SettingsView.xib */,
+				76A578F20F2F2485006DCA53 /* HighScoresView.xib */,
+				76AEACAC0F2F376E001A49B7 /* RootViewController.xib */,
+				76A06D540F30BF010044E203 /* HelpView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7603CE260F45CE1100FCAEE6 /* HighScoresViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7603CE270F45CE2F00FCAEE6 /* HighScoresViewController.h */,
+				7603CE280F45CE2F00FCAEE6 /* HighScoresViewController.m */,
+			);
+			name = HighScoresViewController;
+			sourceTree = "<group>";
+		};
+		7603CE2A0F45CE8F00FCAEE6 /* AboutViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7603CE2F0F45CEE000FCAEE6 /* AboutViewController.h */,
+				7603CE300F45CEE000FCAEE6 /* AboutViewController.m */,
+			);
+			name = AboutViewController;
+			sourceTree = "<group>";
+		};
+		7603CE2B0F45CE9C00FCAEE6 /* HelpViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7603CE2C0F45CEB500FCAEE6 /* HelpViewController.h */,
+				7603CE2D0F45CEB500FCAEE6 /* HelpViewController.m */,
+			);
+			name = HelpViewController;
+			sourceTree = "<group>";
+		};
+		7625279F0F2CED9D00561F7A /* PegView */ = {
+			isa = PBXGroup;
+			children = (
+				76AEAC700F2F32E4001A49B7 /* PegView.h */,
+				76AEAC710F2F32E4001A49B7 /* PegView.m */,
+				76AEAC720F2F32E4001A49B7 /* PegViewController.h */,
+				76AEAC730F2F32E4001A49B7 /* PegViewController.m */,
+			);
+			name = PegView;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		7646ECB90F2E2DD600042B2D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				76AA3F3F0F578A1000B39355 /* PlaySelected.png */,
+				76AA3F3B0F57892A00B39355 /* Restart.png */,
+				76AA3F3C0F57892A00B39355 /* RestartSelected.png */,
+				76AA3F370F5788BE00B39355 /* iPeg.png */,
+				76B9F9550F389FBB00B507CC /* Peg6x6.png */,
+				76B9F9560F389FBB00B507CC /* PegEnglish.png */,
+				76B9F9570F389FBB00B507CC /* PegEuropean.png */,
+				76B9F9150F3891E200B507CC /* Splashscreen.png */,
+				76D312FE0F377CD50027693C /* GameOver.png */,
+				76B34DA10F376DAC005401FC /* UndosLeft.png */,
+				76C63CB60F375DFC008FD0D5 /* Tips.png */,
+				7675ABCE0F2F796C00655E97 /* About.png */,
+				76AEACA60F2F3717001A49B7 /* UndoSelected.png */,
+				76AEAC600F2F3203001A49B7 /* Play.png */,
+				76A578D50F2F1DDE006DCA53 /* Undo.png */,
+				7646ED680F2E46A300042B2D /* Help.png */,
+				7646ED440F2E422300042B2D /* HighScores.png */,
+				7646ECA30F2E2D8000042B2D /* Icon.png */,
+				7646ECA50F2E2D8000042B2D /* PossibleMoveSphere.png */,
+				7646ECA60F2E2D8000042B2D /* Preferences.png */,
+				7646ECA70F2E2D8000042B2D /* SelectedSphere.png */,
+				7646ECA80F2E2D8000042B2D /* Sphere.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		7650DDA20F2CEC690098C6C2 /* FlipSideView */ = {
+			isa = PBXGroup;
+			children = (
+				76AEAC760F2F32F6001A49B7 /* FlipSideView.h */,
+				76AEAC770F2F32F6001A49B7 /* FlipSideView.m */,
+				76AEAC780F2F32F6001A49B7 /* FlipSideViewController.h */,
+				76AEAC790F2F32F6001A49B7 /* FlipSideViewController.m */,
+			);
+			name = FlipSideView;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		76AEAC7C0F2F331E001A49B7 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				762527B00F2CEEF900561F7A /* RootViewController.h */,
+				762527B10F2CEEF900561F7A /* RootViewController.m */,
+			);
+			name = RootViewController;
+			sourceTree = "<group>";
+		};
+		76C63C7D0F375248008FD0D5 /* SettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				76C63C790F3751BE008FD0D5 /* SettingsViewController.h */,
+				76C63C7A0F3751BE008FD0D5 /* SettingsViewController.m */,
+				76A19E5A0F50DF4E00AF67EB /* BoardTypeTableView.h */,
+				76A19E5B0F50DF4E00AF67EB /* BoardTypeTableView.m */,
+			);
+			name = SettingsViewController;
+			sourceTree = "<group>";
+		};
+		76E1F2A60F30CBF800748C61 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				76BF9CE00F2781DC008C353C /* PegBoard.h */,
+				76BF9CE10F2781DC008C353C /* PegBoard.m */,
+				76C63B1E0F373479008FD0D5 /* PegSettings.h */,
+				76C63B1F0F373479008FD0D5 /* PegSettings.m */,
+				76C63C5D0F374C7D008FD0D5 /* Score.h */,
+				76C63C5E0F374C7D008FD0D5 /* Score.m */,
+				76CE67650F45D18C000BCD78 /* HighScoreManager.h */,
+				76CE67660F45D18C000BCD78 /* HighScoreManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CFD714FF0F3C9FC100FEF6F9 /* Boards */ = {
+			isa = PBXGroup;
+			children = (
+				76A19F400F50F55700AF67EB /* Pyramid.txt */,
+				76A19F3E0F50F54C00AF67EB /* Fireplace.txt */,
+				76A334550F4D99CA003D33E1 /* Plus.txt */,
+				76A3281F0F4D0006004B7831 /* Cross.txt */,
+				762E4BA50F3F43D200C7B883 /* 6x6.txt */,
+				CF7258A00F3CA0B000117DD9 /* English.txt */,
+				CF7258A10F3CA0B000117DD9 /* European.txt */,
+			);
+			name = Boards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* PegSolitaire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "PegSolitaire" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PegSolitaire;
+			productName = PegSolitaire;
+			productReference = 1D6058910D05DD3D006BFB54 /* PegSolitaire.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PegSolitaire" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* PegSolitaire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				762527B40F2CEF1400561F7A /* FlipSideView.xib in Resources */,
+				762527B60F2CEF2E00561F7A /* PegView.xib in Resources */,
+				7646ECA90F2E2D8000042B2D /* Icon.png in Resources */,
+				7646ECAB0F2E2D8000042B2D /* PossibleMoveSphere.png in Resources */,
+				7646ECAC0F2E2D8000042B2D /* Preferences.png in Resources */,
+				7646ECAD0F2E2D8000042B2D /* SelectedSphere.png in Resources */,
+				7646ECAE0F2E2D8000042B2D /* Sphere.png in Resources */,
+				7646ED450F2E422300042B2D /* HighScores.png in Resources */,
+				7646ED690F2E46A300042B2D /* Help.png in Resources */,
+				76A578D60F2F1DDE006DCA53 /* Undo.png in Resources */,
+				76A578F10F2F247C006DCA53 /* SettingsView.xib in Resources */,
+				76A578F30F2F2485006DCA53 /* HighScoresView.xib in Resources */,
+				76AEAC610F2F3203001A49B7 /* Play.png in Resources */,
+				76AEACA80F2F3717001A49B7 /* UndoSelected.png in Resources */,
+				76AEACAD0F2F376E001A49B7 /* RootViewController.xib in Resources */,
+				7675ABCF0F2F796C00655E97 /* About.png in Resources */,
+				76A06D550F30BF010044E203 /* HelpView.xib in Resources */,
+				76C63CB70F375DFC008FD0D5 /* Tips.png in Resources */,
+				76B34DA20F376DAC005401FC /* UndosLeft.png in Resources */,
+				76D312FF0F377CD50027693C /* GameOver.png in Resources */,
+				76B9F9160F3891E200B507CC /* Splashscreen.png in Resources */,
+				76B9F9580F389FBB00B507CC /* Peg6x6.png in Resources */,
+				76B9F9590F389FBB00B507CC /* PegEnglish.png in Resources */,
+				76B9F95A0F389FBB00B507CC /* PegEuropean.png in Resources */,
+				CF7258A20F3CA0B000117DD9 /* English.txt in Resources */,
+				CF7258A30F3CA0B000117DD9 /* European.txt in Resources */,
+				762E4BA60F3F43D200C7B883 /* 6x6.txt in Resources */,
+				76A328200F4D0006004B7831 /* Cross.txt in Resources */,
+				76A334560F4D99CA003D33E1 /* Plus.txt in Resources */,
+				76A19F3F0F50F54C00AF67EB /* Fireplace.txt in Resources */,
+				76A19F410F50F55700AF67EB /* Pyramid.txt in Resources */,
+				76AA3F380F5788BE00B39355 /* iPeg.png in Resources */,
+				76AA3F3D0F57892A00B39355 /* Restart.png in Resources */,
+				76AA3F3E0F57892A00B39355 /* RestartSelected.png in Resources */,
+				76AA3F400F578A1000B39355 /* PlaySelected.png in Resources */,
+				769BC2A40F7B137100630111 /* AboutView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* PegSolitaireAppDelegate.m in Sources */,
+				76BF9CE20F2781DC008C353C /* PegBoard.m in Sources */,
+				762527B20F2CEEF900561F7A /* RootViewController.m in Sources */,
+				76AEAC740F2F32E4001A49B7 /* PegView.m in Sources */,
+				76AEAC750F2F32E4001A49B7 /* PegViewController.m in Sources */,
+				76AEAC7A0F2F32F6001A49B7 /* FlipSideView.m in Sources */,
+				76AEAC7B0F2F32F6001A49B7 /* FlipSideViewController.m in Sources */,
+				76C63B200F373479008FD0D5 /* PegSettings.m in Sources */,
+				76C63C5F0F374C7D008FD0D5 /* Score.m in Sources */,
+				76C63C7B0F3751BE008FD0D5 /* SettingsViewController.m in Sources */,
+				7603CE290F45CE2F00FCAEE6 /* HighScoresViewController.m in Sources */,
+				7603CE2E0F45CEB500FCAEE6 /* HelpViewController.m in Sources */,
+				7603CE310F45CEE000FCAEE6 /* AboutViewController.m in Sources */,
+				76CE67670F45D18C000BCD78 /* HighScoreManager.m in Sources */,
+				76A19E5C0F50DF4E00AF67EB /* BoardTypeTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PegSolitaire_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = PegSolitaire;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PegSolitaire_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = PegSolitaire;
+			};
+			name = Release;
+		};
+		76C7F6D30F5DC42000A750F9 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Bruno Goncalves";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Bruno Goncalves";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "ECFB895C-3315-46EE-ABD9-FE3A16A4570F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "ECFB895C-3315-46EE-ABD9-FE3A16A4570F";
+				SDKROOT = iphoneos2.2;
+			};
+			name = Distribution;
+		};
+		76C7F6D40F5DC42000A750F9 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PegSolitaire_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = PegSolitaire;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bruno Goncalves";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bruno Goncalves";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "20DD7254-095A-4A54-8F30-48B99200B6AC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "20DD7254-095A-4A54-8F30-48B99200B6AC";
+				SDKROOT = iphoneos2.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bruno Goncalves";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bruno Goncalves";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "20DD7254-095A-4A54-8F30-48B99200B6AC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "20DD7254-095A-4A54-8F30-48B99200B6AC";
+				SDKROOT = iphoneos2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "PegSolitaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				76C7F6D40F5DC42000A750F9 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PegSolitaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				76C7F6D30F5DC42000A750F9 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

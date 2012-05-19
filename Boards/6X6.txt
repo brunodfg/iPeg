@@ -1,0 +1,5 @@
+width=6
+height=6
+bg=Peg6x6.png
+movesType=0
+board=1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
